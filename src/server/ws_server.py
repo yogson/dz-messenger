@@ -1,7 +1,7 @@
 import asyncio
 import websockets
 
-from src.settings import SERVER_HOST, SERVER_PORT
+from settings import SERVER_HOST, SERVER_PORT
 
 connected_clients = set()
 
